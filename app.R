@@ -6,7 +6,6 @@ library(tidyverse)
 library(ggplot2)
 library(plotly)
 library(ggsci)
-library(gapminder)
 
 # CREATE DASH INSTANCE
 app <- Dash$new(external_stylesheets = "https://codepen.io/chriddyp/pen/bWLwgP.css")
